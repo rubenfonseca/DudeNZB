@@ -19,8 +19,7 @@
 		3E1ED0B91020B69E00F7712B /* XMLRPCTreeBasedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1ED0AF1020B69E00F7712B /* XMLRPCTreeBasedParser.m */; };
 		3E1ED0BE1020B6C300F7712B /* HellaNZBRequest.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3E1ED0BD1020B6C300F7712B /* HellaNZBRequest.rb */; };
 		3E1ED0DA1020BDC900F7712B /* Preferences.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3E1ED0D91020BDC900F7712B /* Preferences.rb */; };
-		3E31895D1021AED400BDE98A /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E31895C1021AED400BDE98A /* BWToolkitFramework.framework */; };
-		3E3189611021AEE100BDE98A /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3E31895C1021AED400BDE98A /* BWToolkitFramework.framework */; };
+		3E2C3DE210260BFA00BABBEE /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2C3DE110260BFA00BABBEE /* BWToolkitFramework.framework */; };
 		3E443C89101FA3E2007D4B5D /* DudeNZBDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3E443C88101FA3E2007D4B5D /* DudeNZBDelegate.rb */; };
 		3E9982F010210CF500AC902F /* QueueTableDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3E9982EF10210CF500AC902F /* QueueTableDelegate.rb */; };
 		4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */; };
@@ -38,7 +37,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3E3189611021AEE100BDE98A /* BWToolkitFramework.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +74,7 @@
 		3E1ED0AF1020B69E00F7712B /* XMLRPCTreeBasedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCTreeBasedParser.m; sourceTree = "<group>"; };
 		3E1ED0BD1020B6C300F7712B /* HellaNZBRequest.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = HellaNZBRequest.rb; sourceTree = "<group>"; };
 		3E1ED0D91020BDC900F7712B /* Preferences.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Preferences.rb; sourceTree = "<group>"; };
-		3E31895C1021AED400BDE98A /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = ../../Downloads/BWToolkit/BWToolkitFramework.framework; sourceTree = SOURCE_ROOT; };
+		3E2C3DE110260BFA00BABBEE /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = BWToolkit/BWToolkitFramework.framework; sourceTree = SOURCE_ROOT; };
 		3E443C88101FA3E2007D4B5D /* DudeNZBDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = DudeNZBDelegate.rb; sourceTree = "<group>"; };
 		3E9982EF10210CF500AC902F /* QueueTableDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = QueueTableDelegate.rb; sourceTree = "<group>"; };
 		4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
@@ -92,7 +90,7 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */,
-				3E31895D1021AED400BDE98A /* BWToolkitFramework.framework in Frameworks */,
+				3E2C3DE210260BFA00BABBEE /* BWToolkitFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +111,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3E31895C1021AED400BDE98A /* BWToolkitFramework.framework */,
+				3E2C3DE110260BFA00BABBEE /* BWToolkitFramework.framework */,
 				4DE3BE130D8651D900ECA448 /* MacRuby.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
@@ -336,6 +334,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Downloads/BWToolkit\"",
+					"\"$(SRCROOT)/BWToolkit\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -357,6 +356,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Downloads/BWToolkit\"",
+					"\"$(SRCROOT)/BWToolkit\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
