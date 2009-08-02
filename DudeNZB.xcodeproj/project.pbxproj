@@ -22,6 +22,7 @@
 		3E2C3DE210260BFA00BABBEE /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2C3DE110260BFA00BABBEE /* BWToolkitFramework.framework */; };
 		3E443C89101FA3E2007D4B5D /* DudeNZBDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3E443C88101FA3E2007D4B5D /* DudeNZBDelegate.rb */; };
 		3E9982F010210CF500AC902F /* QueueTableDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3E9982EF10210CF500AC902F /* QueueTableDelegate.rb */; };
+		3EA1125A10262100000F40EB /* BWToolkitFramework.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2C3DE110260BFA00BABBEE /* BWToolkitFramework.framework */; };
 		4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */; };
 		4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE3BE130D8651D900ECA448 /* MacRuby.framework */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
@@ -31,13 +32,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3E31895B1021AEAB00BDE98A /* CopyFiles */ = {
+		3E31895B1021AEAB00BDE98A /* Copy Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				3EA1125A10262100000F40EB /* BWToolkitFramework.framework in Copy Frameworks */,
 			);
+			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -240,7 +243,7 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
-				3E31895B1021AEAB00BDE98A /* CopyFiles */,
+				3E31895B1021AEAB00BDE98A /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
