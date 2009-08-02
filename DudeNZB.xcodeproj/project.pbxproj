@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E1ED0B01020B69E00F7712B /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1ED09A1020B69D00F7712B /* NSDataAdditions.m */; };
+		3E1ED0B11020B69E00F7712B /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1ED09C1020B69D00F7712B /* NSStringAdditions.m */; };
+		3E1ED0B21020B69E00F7712B /* XMLRPCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1ED0A11020B69D00F7712B /* XMLRPCConnection.m */; };
+		3E1ED0B31020B69E00F7712B /* XMLRPCConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1ED0A31020B69D00F7712B /* XMLRPCConnectionManager.m */; };
+		3E1ED0B41020B69E00F7712B /* XMLRPCEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1ED0A51020B69D00F7712B /* XMLRPCEncoder.m */; };
+		3E1ED0B51020B69E00F7712B /* XMLRPCEventBasedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1ED0A71020B69E00F7712B /* XMLRPCEventBasedParser.m */; };
+		3E1ED0B61020B69E00F7712B /* XMLRPCEventBasedParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1ED0A91020B69E00F7712B /* XMLRPCEventBasedParserDelegate.m */; };
+		3E1ED0B71020B69E00F7712B /* XMLRPCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1ED0AB1020B69E00F7712B /* XMLRPCRequest.m */; };
+		3E1ED0B81020B69E00F7712B /* XMLRPCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1ED0AD1020B69E00F7712B /* XMLRPCResponse.m */; };
+		3E1ED0B91020B69E00F7712B /* XMLRPCTreeBasedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1ED0AF1020B69E00F7712B /* XMLRPCTreeBasedParser.m */; };
+		3E1ED0BE1020B6C300F7712B /* HellaNZBRequest.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3E1ED0BD1020B6C300F7712B /* HellaNZBRequest.rb */; };
+		3E1ED0DA1020BDC900F7712B /* Preferences.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3E1ED0D91020BDC900F7712B /* Preferences.rb */; };
+		3E31895D1021AED400BDE98A /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E31895C1021AED400BDE98A /* BWToolkitFramework.framework */; };
+		3E3189611021AEE100BDE98A /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3E31895C1021AED400BDE98A /* BWToolkitFramework.framework */; };
+		3E443C89101FA3E2007D4B5D /* DudeNZBDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3E443C88101FA3E2007D4B5D /* DudeNZBDelegate.rb */; };
+		3E9982F010210CF500AC902F /* QueueTableDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3E9982EF10210CF500AC902F /* QueueTableDelegate.rb */; };
+		4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */; };
+		4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE3BE130D8651D900ECA448 /* MacRuby.framework */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E31895B1021AEAB00BDE98A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3E3189611021AEE100BDE98A /* BWToolkitFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		3E1ED0991020B69D00F7712B /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		3E1ED09A1020B69D00F7712B /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		3E1ED09B1020B69D00F7712B /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
+		3E1ED09C1020B69D00F7712B /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
+		3E1ED09E1020B69D00F7712B /* XMLRPCConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCConnectionDelegate.h; sourceTree = "<group>"; };
+		3E1ED09F1020B69D00F7712B /* XMLRPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPC.h; sourceTree = "<group>"; };
+		3E1ED0A01020B69D00F7712B /* XMLRPCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCConnection.h; sourceTree = "<group>"; };
+		3E1ED0A11020B69D00F7712B /* XMLRPCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCConnection.m; sourceTree = "<group>"; };
+		3E1ED0A21020B69D00F7712B /* XMLRPCConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCConnectionManager.h; sourceTree = "<group>"; };
+		3E1ED0A31020B69D00F7712B /* XMLRPCConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCConnectionManager.m; sourceTree = "<group>"; };
+		3E1ED0A41020B69D00F7712B /* XMLRPCEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCEncoder.h; sourceTree = "<group>"; };
+		3E1ED0A51020B69D00F7712B /* XMLRPCEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCEncoder.m; sourceTree = "<group>"; };
+		3E1ED0A61020B69E00F7712B /* XMLRPCEventBasedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCEventBasedParser.h; sourceTree = "<group>"; };
+		3E1ED0A71020B69E00F7712B /* XMLRPCEventBasedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCEventBasedParser.m; sourceTree = "<group>"; };
+		3E1ED0A81020B69E00F7712B /* XMLRPCEventBasedParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCEventBasedParserDelegate.h; sourceTree = "<group>"; };
+		3E1ED0A91020B69E00F7712B /* XMLRPCEventBasedParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCEventBasedParserDelegate.m; sourceTree = "<group>"; };
+		3E1ED0AA1020B69E00F7712B /* XMLRPCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCRequest.h; sourceTree = "<group>"; };
+		3E1ED0AB1020B69E00F7712B /* XMLRPCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCRequest.m; sourceTree = "<group>"; };
+		3E1ED0AC1020B69E00F7712B /* XMLRPCResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCResponse.h; sourceTree = "<group>"; };
+		3E1ED0AD1020B69E00F7712B /* XMLRPCResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCResponse.m; sourceTree = "<group>"; };
+		3E1ED0AE1020B69E00F7712B /* XMLRPCTreeBasedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCTreeBasedParser.h; sourceTree = "<group>"; };
+		3E1ED0AF1020B69E00F7712B /* XMLRPCTreeBasedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCTreeBasedParser.m; sourceTree = "<group>"; };
+		3E1ED0BD1020B6C300F7712B /* HellaNZBRequest.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = HellaNZBRequest.rb; sourceTree = "<group>"; };
+		3E1ED0D91020BDC900F7712B /* Preferences.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Preferences.rb; sourceTree = "<group>"; };
+		3E31895C1021AED400BDE98A /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = ../../Downloads/BWToolkit/BWToolkitFramework.framework; sourceTree = SOURCE_ROOT; };
+		3E443C88101FA3E2007D4B5D /* DudeNZBDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = DudeNZBDelegate.rb; sourceTree = "<group>"; };
+		3E9982EF10210CF500AC902F /* QueueTableDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = QueueTableDelegate.rb; sourceTree = "<group>"; };
+		4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		4DE3BE130D8651D900ECA448 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* DudeNZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DudeNZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */,
+				3E31895D1021AED400BDE98A /* BWToolkitFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3E443C88101FA3E2007D4B5D /* DudeNZBDelegate.rb */,
+				3E1ED0BD1020B6C300F7712B /* HellaNZBRequest.rb */,
+				3E1ED0D91020BDC900F7712B /* Preferences.rb */,
+				3E9982EF10210CF500AC902F /* QueueTableDelegate.rb */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E31895C1021AED400BDE98A /* BWToolkitFramework.framework */,
+				4DE3BE130D8651D900ECA448 /* MacRuby.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* DudeNZB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* DudeNZB */ = {
+			isa = PBXGroup;
+			children = (
+				3E443C59101FA12B007D4B5D /* Vendor */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = DudeNZB;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4DE339F60D74FCDD00ADB6EE /* rb_main.rb */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E1ED0971020B69D00F7712B /* XMLRPC */ = {
+			isa = PBXGroup;
+			children = (
+				3E1ED09F1020B69D00F7712B /* XMLRPC.h */,
+				3E1ED0A01020B69D00F7712B /* XMLRPCConnection.h */,
+				3E1ED0A11020B69D00F7712B /* XMLRPCConnection.m */,
+				3E1ED0A21020B69D00F7712B /* XMLRPCConnectionManager.h */,
+				3E1ED0A31020B69D00F7712B /* XMLRPCConnectionManager.m */,
+				3E1ED0A41020B69D00F7712B /* XMLRPCEncoder.h */,
+				3E1ED0A51020B69D00F7712B /* XMLRPCEncoder.m */,
+				3E1ED0A61020B69E00F7712B /* XMLRPCEventBasedParser.h */,
+				3E1ED0A71020B69E00F7712B /* XMLRPCEventBasedParser.m */,
+				3E1ED0A81020B69E00F7712B /* XMLRPCEventBasedParserDelegate.h */,
+				3E1ED0A91020B69E00F7712B /* XMLRPCEventBasedParserDelegate.m */,
+				3E1ED0AA1020B69E00F7712B /* XMLRPCRequest.h */,
+				3E1ED0AB1020B69E00F7712B /* XMLRPCRequest.m */,
+				3E1ED0AC1020B69E00F7712B /* XMLRPCResponse.h */,
+				3E1ED0AD1020B69E00F7712B /* XMLRPCResponse.m */,
+				3E1ED0AE1020B69E00F7712B /* XMLRPCTreeBasedParser.h */,
+				3E1ED0AF1020B69E00F7712B /* XMLRPCTreeBasedParser.m */,
+				3E1ED09D1020B69D00F7712B /* Delegates */,
+				3E1ED0981020B69D00F7712B /* Additions */,
+			);
+			name = XMLRPC;
+			sourceTree = "<group>";
+		};
+		3E1ED0981020B69D00F7712B /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				3E1ED0991020B69D00F7712B /* NSDataAdditions.h */,
+				3E1ED09A1020B69D00F7712B /* NSDataAdditions.m */,
+				3E1ED09B1020B69D00F7712B /* NSStringAdditions.h */,
+				3E1ED09C1020B69D00F7712B /* NSStringAdditions.m */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		3E1ED09D1020B69D00F7712B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				3E1ED09E1020B69D00F7712B /* XMLRPCConnectionDelegate.h */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		3E443C59101FA12B007D4B5D /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3E1ED0971020B69D00F7712B /* XMLRPC */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* DudeNZB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "DudeNZB" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				3E31895B1021AEAB00BDE98A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DudeNZB;
+			productInstallPath = "$(HOME)/Applications";
+			productName = DudeNZB;
+			productReference = 8D1107320486CEB800E47090 /* DudeNZB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DudeNZB" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* DudeNZB */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* DudeNZB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
+				3E443C89101FA3E2007D4B5D /* DudeNZBDelegate.rb in Resources */,
+				3E1ED0BE1020B6C300F7712B /* HellaNZBRequest.rb in Resources */,
+				3E1ED0DA1020BDC900F7712B /* Preferences.rb in Resources */,
+				3E9982F010210CF500AC902F /* QueueTableDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				3E1ED0B01020B69E00F7712B /* NSDataAdditions.m in Sources */,
+				3E1ED0B11020B69E00F7712B /* NSStringAdditions.m in Sources */,
+				3E1ED0B21020B69E00F7712B /* XMLRPCConnection.m in Sources */,
+				3E1ED0B31020B69E00F7712B /* XMLRPCConnectionManager.m in Sources */,
+				3E1ED0B41020B69E00F7712B /* XMLRPCEncoder.m in Sources */,
+				3E1ED0B51020B69E00F7712B /* XMLRPCEventBasedParser.m in Sources */,
+				3E1ED0B61020B69E00F7712B /* XMLRPCEventBasedParserDelegate.m in Sources */,
+				3E1ED0B71020B69E00F7712B /* XMLRPCRequest.m in Sources */,
+				3E1ED0B81020B69E00F7712B /* XMLRPCResponse.m in Sources */,
+				3E1ED0B91020B69E00F7712B /* XMLRPCTreeBasedParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/BWToolkit\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = DudeNZB;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/BWToolkit\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = DudeNZB;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "DudeNZB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DudeNZB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
