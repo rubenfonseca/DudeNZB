@@ -1,0 +1,18 @@
+h1. DudeNZB - Yet another Cocoa hellanzb frontend
+
+DudeNZB is my first try to build a real world Cocoa app using MacRuby. It is a
+frontend to the XMLRPC API from "hellanzb":http://www.hellanzb.com/trac/.
+
+h2. Requirements
+
+Right now there are no binary files ready to install. You must clone this repository
+and open it with XCode. You'll need:
+
+* a Mac
+* Xcode
+* Macruby 0.4 installed (get it "here":http://www.macruby.org/)
+* luck
+
+h2. Status
+
+Very incomplete yet. Just a proof of concept for now.
